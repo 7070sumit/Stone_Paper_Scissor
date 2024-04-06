@@ -1,0 +1,100 @@
+body{
+    background-color: #212121;
+    color: white;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 800px;
+}
+div.table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+div.logo{
+    margin-top: 15px;
+    background-color: white;
+    width:400px;
+    height:89px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 5px outset grey;
+}
+img.stone{
+   height: 80px;
+   width:80px;
+   padding:7px;
+}
+img.paper{
+    height: 80px;
+    width:80px;
+    padding:7px;
+
+}
+img.scissor{
+    height: 80px;
+    width:80px;
+    padding:7px;
+}
+img.paper:hover{
+    filter: brightness(0) saturate(100%) invert(79%) sepia(85%) saturate(1414%) hue-rotate(319deg) brightness(97%) contrast(95%);
+}
+img.stone:hover{
+    filter: brightness(0) saturate(100%) invert(79%) sepia(85%) saturate(1414%) hue-rotate(319deg) brightness(97%) contrast(95%);
+}
+img.scissor:hover{
+    filter: brightness(0) saturate(100%) invert(79%) sepia(85%) saturate(1414%) hue-rotate(319deg) brightness(97%) contrast(95%);
+}
+
+
+input.your_input{
+    padding: 10px;
+    height: 20px;
+    border-radius: 15px;
+    
+   
+}
+
+p.roundRemaining{
+    font-size: 30px;
+}
+
+
+
+table{
+    margin-top: 20px;
+    width:400px;
+    height:200px;
+    text-align: center;
+    font-size: 25px;
+
+}
+th{
+    text-decoration: underline;
+}
+td{
+    font-size: 50px;
+}
+
+table,tr,td,th{
+    border:1px solid white;
+    border-collapse:collapse;
+}
